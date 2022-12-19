@@ -20,6 +20,23 @@ body {
   -o-transition: 0.5s;
 }
 
+.web-hero {
+  display: block;
+}
+
+.mobile-hero {
+  display: none;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+  .web-hero {
+    display: none;
+  }
+  .mobile-hero {
+    display: block;
+  }
+}
+
 .footer {
   background-color: #ffddd2;
 }
